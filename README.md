@@ -1,4 +1,4 @@
-# Futebol Verde
+# Futebol 
 
 Aplicativo Expo com as telas originais de Início, Partidas e Tabela. O visual e os textos foram preservados.
 
