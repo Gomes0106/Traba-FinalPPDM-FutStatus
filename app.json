@@ -1,29 +1,30 @@
 {
   "expo": {
-    "name": "pesquisadefut",
-    "slug": "pesquisadefut",
+    "name": "Futebol Verde",
+    "slug": "futebol-verde",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "br.com.guilherme.futebolverde"
     },
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
+    "extra": {},
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "resizeMode": "contain",
+          "backgroundColor": "#07110c"
+        }
+      ]
+    ],
+    "scheme": "futebol-verde",
     "web": {
-      "favicon": "./assets/favicon.png"
+      "output": "single"
     }
   }
 }
